@@ -1,0 +1,24 @@
+{
+    "name": "cesarv/silex-service-providers",
+    "description": "Silex Service Providers",
+    "homepage": "https://github.com/cesar-v/silex-service-providers",
+    "keywords": ["silex", "service providers", "cesarv"],
+    "license": "MIT",
+    "require": {
+        "silex/silex": "~1.2",
+        "cesarv/views": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Cesar Vega",
+            "email": "cesar.binary@gmail.com",
+            "homepage": "https://github.com/cesar-v"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CesarV\\Silex\\ServiceProviders\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}
